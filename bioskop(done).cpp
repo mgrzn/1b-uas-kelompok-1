@@ -51,7 +51,7 @@ void showClassSeats(int classX)
 			cout <<  i << ",X" << "\t";
 		else
 			cout <<  i << ",O" << "\t";
-		if ((i % colom)) cout << endl;
+		if (!(i % colom)) cout << endl;
 	}
 	cout << "----------------------------------------\n    -------------BACK-------------" << endl;
 
